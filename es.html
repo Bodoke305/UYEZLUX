@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uyez Lux Driver | Servicio de Chofer Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importación de tipografía elegante desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navegación / Menú -->
+    <header class="navbar">
+        <div class="logo">
+            UYEZ <span>LUX DRIVER</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#photos">Fotos</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Enlace <a> que permite regresar a la versión en inglés (index.html) -->
+        <a href="index.html" class="lang-badge">
+            <span class="flag">🇺🇸</span> View in English
+        </a>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Experiencia de Viaje de Primer Nivel</h1>
+            <p>Puntualidad, elegancia y confort en cada trayecto. Tu chofer privado de confianza.</p>
+            <a href="#contact" class="btn-primary">Reserva Tu Viaje</a>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="services" class="services-section">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Traslados al Aeropuerto</h3>
+                <p>Monitoreo de vuelos en tiempo real y asistencia con el equipaje para un viaje sin estrés.</p>
+            </div>
+            <div class="service-card">
+                <h3>Eventos Corporativos</h3>
+                <p>Logística de transporte impecable para ejecutivos, reuniones de negocios y conferencias.</p>
+            </div>
+            <div class="service-card">
+                <h3>Ocasiones Especiales</h3>
+                <p>Bodas, galas y eventos VIP. Viaja con el estilo y la distinción que mereces.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Fotos -->
+    <section id="photos" class="gallery-section">
+        <h2 class="section-title">Nuestra Flota y Experiencia</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600');"></div>
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=600');"></div>
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600');"></div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <p>En <strong>Uyez Lux Driver</strong>, no solo ofrecemos un traslado; entregamos una experiencia exclusiva. Nos dedicamos a superar las expectativas de nuestros clientes mediante un servicio personalizado, discreto y rigurosamente puntual.</p>
+            <p>Nuestros conductores profesionales están completamente capacitados para brindar el más alto estándar de atención bilingüe, garantizando que tu única preocupación sea disfrutar del camino.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contacto & Reservas</h2>
+        <p class="contact-subtitle">¿Listo para viajar con nosotros? Contáctanos a través de nuestros canales directos o déjanos un mensaje abajo.</p>
+        
+        <div class="direct-contact-buttons">
+            <a href="https://wa.me/1234567890" target="_blank" class="contact-btn whatsapp-btn">WhatsApp</a>
+            <a href="tel:+1234567890" class="contact-btn phone-btn">Llámanos</a>
+            <a href="mailto:info@uyezluxdriver.com" class="contact-btn email-btn">Escríbenos</a>
+        </div>
+
+        <div class="separator"><span>Ó</span></div>
+
+        <form class="contact-form" onsubmit="return false;">
+            <div class="form-group">
+                <input type="text" placeholder="Tu Nombre Completo" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Tu Correo Electrónico" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" placeholder="Detalles del viaje (Fecha, hora, lugar de recogida, destino...)" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar Solicitud</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Uyez Lux Driver. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
