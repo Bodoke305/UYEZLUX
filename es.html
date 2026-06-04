@@ -89,18 +89,18 @@
 
         <div class="separator"><span>Ó</span></div>
 
-        <form class="contact-form" onsubmit="return false;">
-            <div class="form-group">
-                <input type="text" placeholder="Tu Nombre Completo" required>
-            </div>
-            <div class="form-group">
-                <input type="email" placeholder="Tu Correo Electrónico" required>
-            </div>
-            <div class="form-group">
-                <textarea rows="5" placeholder="Detalles del viaje (Fecha, hora, lugar de recogida, destino...)" required></textarea>
-            </div>
-            <button type="submit" class="btn-submit">Enviar Solicitud</button>
-        </form>
+       <form class="contact-form" action="mailto:info@uyezluxdriver.com" method="POST" enctype="text/plain">
+    <div class="form-group">
+        <input type="text" name="Nombre" placeholder="Tu Nombre Completo" required>
+    </div>
+    <div class="form-group">
+        <input type="email" name="Correo" placeholder="Tu Correo Electrónico" required>
+    </div>
+    <div class="form-group">
+        <textarea name="Detalles del Viaje" rows="5" placeholder="Detalles del viaje (Fecha, hora, lugar de recogida, destino...)" required></textarea>
+    </div>
+    <button type="submit" class="btn-submit">Enviar Solicitud</button>
+</form>
     </section>
 
     <footer>
